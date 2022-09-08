@@ -1,0 +1,23 @@
+img, embed, object, video{
+    max-width: 100%;
+}
+
+nav, a, button{
+    min-width: 48px;
+    min-height: 48px;
+}
+body{
+
+    background-color: darkseagreen;
+    
+}
+
+
+@media screen and (max-width:500px) {
+    body{
+
+     background-color: rgb(91, 207, 243);
+        
+    }
+}
+
